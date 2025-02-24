@@ -26,6 +26,17 @@ ManaLapse was intended to use Expo Notifications to remind users when to take th
 
 Currently, the app is **not functional** due to the notification issue. If a fix becomes available, development may continue to restore the intended functionality.
 
+![Screenshot_20250224_224256_timelapse-app](https://github.com/user-attachments/assets/abbc2ea3-5dbb-43ed-81dc-550d5b8156a4)
+
+![Screenshot_20250224_224259_timelapse-app](https://github.com/user-attachments/assets/fc8a63b7-7523-4ee4-b816-8eac3daff6e1)
+
+![Screenshot_20250224_224324_timelapse-app](https://github.com/user-attachments/assets/7784ba61-308a-4f3a-a0a3-bd16872e35cc)
+
+![Screenshot_20250224_224314_timelapse-app](https://github.com/user-attachments/assets/2a085e0f-5408-4d7c-af85-2df573e01510)
+
+
+
+
 ## 📌 Future Plans
 
 - Find a workaround for notifications
