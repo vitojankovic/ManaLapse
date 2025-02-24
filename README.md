@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# ManaLapse
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ManaLapse is a mobile app built with Expo that helps users manage their timelapses efficiently. It provides notifications to remind users when to take the next photo in their timelapse sequence and offers an easy-to-use interface for organizing and tracking timelapse projects.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- Set up and manage multiple timelapse projects
+- Get notified when it's time to take the next photo
+- Simple and intuitive UI for easy navigation
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **Expo** (React Native framework for cross-platform development)
 
-   ```bash
-    npx expo start
-   ```
+## ❌ Issue with Notifications
 
-In the output, you'll find options to open the app in a
+ManaLapse was intended to use Expo Notifications to remind users when to take their next photo. However, due to compatibility issues with **Expo SDK 52**, notifications are currently non-functional. As of now, there is no reliable way to implement local notifications using this version of Expo, making it impossible to deliver the core feature of the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🔧 Potential Fixes
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Wait for a fix or update from Expo that resolves the issue with notifications in SDK 52
+- Explore alternative solutions such as integrating a third-party push notification service outside of Expo
+- Consider downgrading to a stable Expo version where notifications work reliably
 
-## Get a fresh project
+## 📝 Status
 
-When you're ready, run:
+Currently, the app is **not functional** due to the notification issue. If a fix becomes available, development may continue to restore the intended functionality.
 
-```bash
-npm run reset-project
-```
+## 📌 Future Plans
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Find a workaround for notifications
+- Improve the UI and user experience
+- Add additional features like cloud backup for timelapse projects
 
-## Learn more
+## 📩 Contributions & Feedback
 
-To learn more about developing your project with Expo, look at the following resources:
+If you have suggestions or know of a fix for the notification issue, feel free to contribute or share your insights!
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
